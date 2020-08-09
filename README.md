@@ -1,0 +1,2 @@
+# netmedsAssignment
+Netmeds Interview Assignement
