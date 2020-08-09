@@ -108,3 +108,8 @@ paper-dashboard-angular
 ├── tsconfig.json
 └── tslint.json
 ```
+![Login Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
+![Tests Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
+![Cart Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
+![Thankyou Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
+
