@@ -108,8 +108,16 @@ paper-dashboard-angular
 ├── tsconfig.json
 └── tslint.json
 ```
+Please find the screenshot of the Application Below:
+LOGIN
 ![Login Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
-![Tests Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
-![Cart Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
-![Thankyou Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_1.png)
+
+TESTS
+![Tests Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_2.png)
+
+CART
+![Cart Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_3.png)
+
+THANKYOU
+![Thankyou Page](https://github.com/yashchanda721/netmedsAssignment/blob/master/src/assets/img/Screenshot_4.png)
 
