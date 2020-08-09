@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="bg-black">
+                        <th class="text-center" colspan="2">Details</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td class="font-weight-bold">Tests</td>
+                        <td>Price</td>
+                    </tr>
+                    <tr *ngFor="let i=index;let item of items">
+                        <td class="font-weight-bold">{{item.item_name}}</td>
+                        <td>₹{{item.price}}</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <td>Total</td>
+                    <td>₹{{total}}</td>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-6 text-center">
+        <img src="assets/img/check-mark.png" width="70" class="mt-0">
+
+
+        <h2 class="font-weight-bold mt-2">You are all set</h2>
+        <h5 class="mt-1">Thanks for purchasing the tests. <br> Your payment is successful !</h5>
+        <div>
+            <button type="button" (click)="onBack()" class="btn btn-success">Go to Tests</button>
+        </div>
+    </div>
+
+</div>

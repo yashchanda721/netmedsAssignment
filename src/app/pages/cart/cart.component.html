@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title"> User Selected Tests</h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table">
+            <thead class=" text-primary">
+              <th>
+                Test Name
+              </th>
+              <th>
+                Test Price
+              </th>
+              <th>
+                Action
+              </th>
+              
+            </thead>
+            <tbody>
+              <tr *ngFor="let i=index;let item of items">
+                <td>
+                  {{item.item_name}}
+                </td>
+                <td>
+                  ₹{{item.price}}
+                </td>
+                <td class="text-right">
+                  <span class="nc-simple-remove nc-icon" (click)="onRemove(item,$event)" style="align-self: center;"></span>
+                </td>
+              </tr>
+
+            </tbody>
+            <tfoot>
+              <td></td>
+              <td>₹{{total}}</td>
+              <td></td>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div>
+  <button type="button" (click)="onBack()" class="btn btn-success">Go Back</button>
+  <button type="button" (click)="onPay()" class="btn btn-success">Pay Now</button>
+</div>

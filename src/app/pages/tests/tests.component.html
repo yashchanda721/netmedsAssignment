@@ -1,0 +1,33 @@
+
+<div class="row">
+  <div *ngFor="let i=index;let item of items" id="user_{{i+1}}" class="col-lg-3 col-md-6 col-sm-6 name">
+    <div class="card card-stats">
+      <div class="card-body ">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-globe text-warning"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category"></p>
+              <p class="card-title">₹{{item.price}}
+                <p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer ">
+        <hr>
+        <div class="stats">
+          <input type="checkbox" (change)="onCheckChangeAr(item,$event)" value="{{item.item_id}}"><!--<i class="fa fa-refresh"></i>--> {{item.item_name}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <button type="button" (click)="onSubmit()" class="btn btn-success">Proceed to Checkout</button>
+</div>
+
